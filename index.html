@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>MoneyScanner</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<header style="position: absolute;top: 0; margin: 2%; width:96%; z-index:500; font-size:80px;background-color: rgba(0,0,0,0.1); color: rgba(225,225,225,0.3); text-align: right;"></header>
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides" data-transition="convex">
+				<section>
+
+					<h1>Money$canner</h1>
+					<h3>Reconocedor de Billetes</h3>
+					<p>
+						<small>A Desarrollar por <a href="#">HandiApps</a></small>
+					</p>
+				</section>
+
+				<section data-background="img/walk3.png" data-background-size="contain" data-state="header" data-transition="convex">
+					<style>.header header:after { content: "HandiApps"; }</style>
+					<h2>Problema y Oportunidad</h2>
+					<ul>
+						<li>600.000 chilenos con algún grado de discapacidad visual.</li>
+						<li>Falta de autonomía.</li>
+						<li>Problemas en el reconocimiento de objetos.</li>
+						<li>Servicios monetarios están en deuda.</li>
+					</ul>
+				</section>
+
+				<section data-background="img/hands1.png" data-background-size="contain" data-state="header" data-transition="convex">
+					<style>.header header:after { content: "HandiApps"; }</style>
+					<h2>Solución Propuesta</h2>
+					<h4>MoneyScanner, una aplicación que reconoce billetes en tiempo real, usando la camara del smartphone.</h4>
+				</section>
+
+				<section data-background="img/inn.png" data-background-size="contain" data-state="header" data-transition="convex">
+					<style>.header header:after { content: "HandiApps"; }</style>
+					<h2>Innovación</h2>
+					<ul>
+						<li>Inclusión del Peso Chileno.</li>
+						<li>Variedad de Divisas.</li>
+						<li>Conversión entre estas.</li>
+					</ul>
+				</section>
+
+				<section data-transition="convex">
+					<h1>Money$canner</h1>
+					<h3>Equipo HandiApps</h3>
+					<p>
+							<ul>
+								<li>José Miguel Castro</li>
+								<li>Felipe Andres Gonzalez</li>
+								<li>Sven Nose Hollstein</li>
+								<li>Felipe Ignacio Morales</li>
+								<li>Javier Alejandro Reyes</li>
+							</ul>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
