@@ -272,3 +272,14 @@ body {
 
 section {
   text-shadow: -2px 0 #222, 0 2px #222, 2px 0 #222, 0 -2px #222; }
+
+header p.c {
+  color: #2a76dd;
+  margin: 0;
+  padding: 0;
+  margin-right: 2%; }
+header p.a {
+  color: #6ca2e8;
+  margin: 0;
+  padding: 0;
+  margin-right: 2%; }

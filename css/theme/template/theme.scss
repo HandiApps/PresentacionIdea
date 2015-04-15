@@ -351,3 +351,20 @@ body {
 section {
 	text-shadow: -2px 0 #222, 0 2px #222, 2px 0 #222, 0 -2px #222;
 }
+
+header {
+	p {
+		&.c {
+		  color: $linkColor;
+			margin: 0;
+			padding: 0;
+			margin-right: 2%;
+		}
+		&.a {
+		  color: $linkColorHover;
+			margin: 0;
+			padding: 0;
+			margin-right: 2%;
+		}
+	}
+}

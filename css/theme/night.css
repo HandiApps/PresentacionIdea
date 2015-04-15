@@ -270,3 +270,14 @@ body {
 
 section {
   text-shadow: -2px 0 #222, 0 2px #222, 2px 0 #222, 0 -2px #222; }
+
+header p.c {
+  color: #e7ad52;
+  margin: 0;
+  padding: 0;
+  margin-right: 2%; }
+header p.a {
+  color: #f3d7ac;
+  margin: 0;
+  padding: 0;
+  margin-right: 2%; }

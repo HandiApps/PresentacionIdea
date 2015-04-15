@@ -282,6 +282,17 @@ body {
 section {
   text-shadow: -2px 0 #222, 0 2px #222, 2px 0 #222, 0 -2px #222; }
 
+header p.c {
+  color: #a23;
+  margin: 0;
+  padding: 0;
+  margin-right: 2%; }
+header p.a {
+  color: #dd5567;
+  margin: 0;
+  padding: 0;
+  margin-right: 2%; }
+
 .reveal p {
   font-weight: 300;
   text-shadow: 1px 1px #222; }
